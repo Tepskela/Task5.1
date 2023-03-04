@@ -6,10 +6,10 @@ public class ModelService {
         int counter = 0;
 
         for (int month = 1; month <= 12; month++) {
-            if (money >= threshold){
-              money = money - expenses;
-              money = money / 3;
-              counter++;
+            if (money >= threshold) {
+                money = money - expenses;
+                money = money / 3;
+                counter++;
             } else {
                 money = money + income - expenses;
             }
